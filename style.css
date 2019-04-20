@@ -1,0 +1,373 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #F5F5F5;
+}
+
+
+/* NAV */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  margin-bottom: 50px;
+
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav li {
+  margin: 0% 1%; 
+}
+
+.avail {
+  white-space: nowrap;
+  padding-right: 3%;
+}
+
+.intro {
+  text-align: center;
+  border-bottom: 1px black solid;
+  position: fixed;
+  top:40px;
+  right:0;
+  left:0;
+  padding-bottom: .5%;
+}
+
+.nav, .intro {
+  background-color: white;
+}
+
+.intro p{
+  margin: 0% 0%;
+}
+
+
+/* HOME */
+
+.fpimages {
+  display: flex;
+  height: 600px;
+  margin: 80px 10% 0% 10%;
+}
+
+
+.close{
+  flex:1;
+  background-image: url("pics/far.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.far {
+  flex:1;
+  background-image:url("pics/conglomblue.png");
+  background-position: top;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-color: #2954CC;
+}
+
+.far h4 {
+  background-color:#F5F5F5;
+  color: black;
+  text-align: center;
+  margin: 275px;
+  padding: 10px;
+  border: 1px black solid;
+}
+
+.far a{
+  text-decoration: none;
+  color: black;
+}
+/* home */
+
+/* product pages */
+
+.description{
+  display: flex;
+  margin: 80px 0% 2% 0%;
+}
+
+.art {
+  flex:1;
+  display: flex;
+  margin-left:10%;
+  background-image:url(pics/far.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:600px;
+  border-right: 1px black solid;
+}
+
+.art:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.text {
+  flex:1;
+  display: flex;
+  padding-top: 20%;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.text h2{
+  padding-left:15%;
+  padding-right:15%;
+  text-align: center;
+}
+/* jpg */
+
+.details {
+  padding-left: 27%; 
+  padding-right: 27%;
+}
+
+.details p {
+  text-align: center;
+}
+
+.chart {
+  display:flex;
+  padding: 0%;
+  border: 1px grey solid;
+}
+
+
+.left {
+  flex: 1;
+  padding-right: 10%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.right {
+  flex:1;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+  
+.altsgb {
+  display: flex;
+  margin-bottom: 2% 10%;
+}
+
+.margiela, .dior, .dolce {
+  height: 500px;
+}
+
+.margiela{
+  flex:1;
+  background-image: url("pics/stair.png");
+  background-position: top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+}
+
+.dior {
+  flex:1;
+  background-image: url("pics/stairs.png");
+  background-position: top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.dolce {
+  flex:1;
+  background-image: url("pics/stairssss.png");
+  background-position: top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+}
+
+/* gucci */
+
+.artgucci{
+  flex:1;
+  display: flex;
+  margin-left:10%;
+  background-image:url("pics/guccifront.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:600px;
+  border-right: 1px black solid;
+  
+}
+
+.artgucci:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.altsgucci {
+  display: flex;
+}
+
+.onegucci, .twogucci, .threegucci {
+  flex:1;
+  background-position: top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height:600px;
+}
+
+.onegucci, .threegucci{
+  background-image: url("pics/guccifront.jpg");
+}
+
+.twogucci {
+  background-image: url("pics/guccibw.jpg");
+}
+
+
+/* dior */
+
+.artdior{
+  flex:1;
+  display: flex;
+  margin-left:10%;
+  background-image:url("pics/diordressbw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:600px;
+  border-right: 1px black solid;
+}
+
+.artdior:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.text h2 {
+  text-align: center;
+}
+.altsdior {
+  display: flex;
+}
+
+.onedior, .twodior, .threedior {
+  flex:1;
+  background-position: top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height:600px;
+}
+
+.onedior, .threedior {
+  background-image: url("pics/diordressbw.jpg");
+  
+}
+.twodior {
+  background-image: url("pics/diordress.jpg");
+}
+
+
+/* dior end*/
+
+/* product pages end*/
+
+/* product */
+
+.products {
+  margin-top: 85px;
+  margin-bottom: 50px;
+}
+
+.products, .productssoon, .productssoontwo, .productssoonthree {
+  display:flex;
+}
+
+.products a, .productssoon a, .productssoontwo a, .productssoonthree a{
+  width: 33%;
+}
+
+.one p{
+  display: none;
+}
+
+.one p:hover{
+  display: block;
+}
+
+.one:hover, .two:hover, .three:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.one, .two, .three, .onesoon, .twosoon, .threesoon, .onesoontwo, .twosoontwo, .threesoontwo, .onesoonthree, .twosoonthree, .threesoonthree {
+  flex:1;
+  background-position: top;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+  
+.one {
+  background-image: url("pics/stair.png");
+}
+
+.two {
+  background-image: url("pics/guccifront.jpg");
+}
+
+.three {
+  background-image: url("pics/diordressbw.jpg");
+}
+
+p { 
+  text-align: center;
+}
+
+.onesoon, .threesoon {
+  background-image: url("pics/met.png");
+}
+
+.twosoon {
+  background-image: url("pics/meshmet.png");  
+}
+
+.onesoontwo, .threesoontwo {
+  background-image: url("pics/diort.png");
+}
+
+.twosoontwo {
+  background-image: url("pics/ludlow.png");  
+}
+
+.onesoonthree, .threesoonthree {
+  background-image: url("pics/orange.png");
+}
+
+.twosoonthree {
+  background-image: url("pics/louis.png");  
+}
+
+/* product end*/
+
+
+/* shipping details */
+.shipping {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
